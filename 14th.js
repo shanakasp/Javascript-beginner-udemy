@@ -7,7 +7,7 @@ function order(quantity, price) {
   let totalPrice = quantity * price;
 
   console.log(
-    `Quantity is ${quantity} and Prince is ${price} Total Price is ${totalPrice}`
+    `Quantity is ${quantity} and Price is ${price} Total Price is ${totalPrice}`
   );
 }
 
