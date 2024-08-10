@@ -4,7 +4,11 @@ function food() {
 }
 
 function order(quantity, price) {
-  console.log(`Quantity is ${quantity} and Prince is ${price}`);
+  let totalPrice = quantity * price;
+
+  console.log(
+    `Quantity is ${quantity} and Prince is ${price} Total Price is ${totalPrice}`
+  );
 }
 
 food();
