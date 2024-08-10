@@ -7,3 +7,7 @@ console.log(c1);
 var c1 = "black";
 
 console.log(c1);
+
+var arraylength = quest1.length;
+
+console.log(arraylength);
